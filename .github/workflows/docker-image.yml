@@ -28,6 +28,6 @@ jobs:
       - name: Upload tar as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ccnexus-docker-image
-          path: ccnexus.tar
+          name: docker-image
+          path: free-api.tar
           retention-days: 7
