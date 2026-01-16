@@ -3,7 +3,7 @@ name: Build Docker Image and Save as TAR
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:  # 👈 允许在 GitHub UI 上手动触发
 
 jobs:
